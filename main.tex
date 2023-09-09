@@ -1,0 +1,40 @@
+\RequirePackage{etoolbox}
+\newtoggle{acmflag}
+%\togglefalse{acmflag}
+\toggletrue{acmflag}
+
+\iftoggle{acmflag}{%
+    \documentclass[sigconf]{acmart}
+}{%
+    \documentclass[conference]{IEEEtran}
+}
+
+\pagestyle{plain}
+
+\input{support/globalpackages}
+\input{support/preamble}
+\title{This is Title}
+
+
+\begin{document}
+\input{support/maketitle}
+
+\input{sections/1_introduction}
+\input{sections/2_preliminaries}
+\input{sections/conclusion}
+\input{sections/acknowledgements}
+\bibliographystyle{ieeetr}
+\bibliography{support/reference-1, support/reference-2}
+\end{document}
+
+
+% \begin{document}
+
+
+
+% %\newpage
+% % \input{sections/appendix}
+% % \input{sections/Quotient}
+
+
+% \end{document}

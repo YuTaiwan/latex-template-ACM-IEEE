@@ -1,0 +1,605 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Simplified String Declaration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ @String{TECS = "ACM Transactions on Embedded Computing Systems (TECS)" }
+ @String{DAC = "IEEE/ACM Design Automation Conference (DAC)" }
+ @String{ICCAD = "IEEE/ACM Internation Conference on Computer-Aided Design (ICCAD)" }
+ @String{IEEE = "Proceedings of the IEEE" }
+ @String{ISPD = "Proceedings of the International Symposium on Physical Design (ISPD)" }
+ @String{DATE = "Design, Automation \& Test in Europe Conference   Exhibition (DATE)" }
+ @String{TCAD = "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)" }
+ @String{TODAES = "ACM Transactions on Design Automation of Electronic Systems (TODAES)" }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% contract theory
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{Chen09,
+  title={Contracts for system design},
+  author={Benveniste, Albert and Caillaud, Beno{\^\i}t and Nickovic, Dejan and Passerone, Roberto and Raclet, Jean-Baptiste and Reinkemeier, Philipp and Sangiovanni-Vincentelli, Alberto and Damm, Werner and Henzinger, Thomas A and Larsen, Kim G},
+  year={2018},
+  journal={Foundations and Trends® in Electronic Design Automation},
+  volume={12},
+  number={2-3},
+  pages={124--400}
+}
+
+@phdthesis{Benveniste12,
+  title={Contracts for system design},
+  author={Benveniste, Albert and Caillaud, Benoit and Nickovic, Dejan and Passerone, Roberto and Raclet, Jean-Baptiste and Reinkemeier, Philipp and Sangiovanni-Vincentelli, Alberto and Damm, Werner and Henzinger, Thomas and Larsen, Kim Guldstrand},
+  year={2012},
+  school={Inria}
+}
+
+@article{Passerone19,
+  title={Coherent Extension, Composition, and Merging Operators in Contract Models for System Design},
+  author={Passerone, Roberto and Incer, Inigo and Sangiovanni-Vincentelli, Alberto L},
+  journal= TECS,
+  volume={18},
+  number={5},
+  pages={1--23},
+  year={2019},
+  publisher={ACM New York, NY, USA}
+}
+
+@inproceedings{Benveniste07,
+  title={Multiple viewpoint contract-based specification and design},
+  author={Benveniste, Albert and Caillaud, Beno{\^\i}t and Ferrari, Alberto and Mangeruca, Leonardo and Passerone, Roberto and Sofronis, Christos},
+  booktitle={International Symposium on Formal Methods for Components and Objects},
+  pages={200--225},
+  year={2007},
+}
+
+@inproceedings{Incer18,
+  title={Quotient for assume-guarantee contracts},
+  author={Incer, Inigo and Sangiovanni-Vincentelli, Alberto and Lin, Chung-Wei and Kang, Eunsuk},
+  booktitle={2018 16th ACM/IEEE International Conference on Formal Methods and Models for System Design (MEMOCODE)},
+  pages={1--11},
+  year={2018},
+  organization={IEEE}
+}
+
+@InProceedings{Incer22,
+author="Incer, Inigo
+and Benveniste, Albert
+and Sangiovanni-Vincentelli, Alberto
+and Seshia, Sanjit A.",
+title="Hypercontracts",
+booktitle="NASA Formal Methods",
+year="2022",
+pages="674--692",
+}
+
+@article{hypercontracts,
+  title={Hypercontracts},
+  author={Incer, Inigo and Benveniste, Albert and Sangiovanni-Vincentelli, Alberto and Seshia, Sanjit A},
+  journal={arXiv preprint arXiv:2106.02449},
+  year={2021}
+}
+
+@inproceedings{Oh19,
+  title={Optimizing assume-guarantee contracts for cyber-physical system design},
+  author={Oh, Chanwook and Kang, Eunsuk and Shiraishi, Shinichi and Nuzzo, Pierluigi},
+  booktitle=DATE,
+  pages={246--251},
+  year={2019},
+}
+
+@article{Nuzzo19,
+  title={Stochastic assume-guarantee contracts for cyber-physical system design},
+  author={Nuzzo, Pierluigi and Li, Jiwei and Sangiovanni-Vincentelli, Alberto L and Xi, Yugeng and Li, Dewei},
+  journal=TECS,
+  volume={18},
+  number={1},
+  pages={1--26},
+  year={2019},
+  publisher={ACM New York, NY, USA}
+}
+
+@phdthesis{Inigo22PHD,
+    Author = {Incer, Inigo},
+    Title = {The Algebra of Contracts},
+    School = {EECS Department, University of California, Berkeley},
+    Year = {2022},
+    Month = {May},
+    xurl = {http://www2.eecs.berkeley.edu/Pubs/TechRpts/2022/EECS-2022-99.html},
+    Number = {UCB/EECS-2022-99},
+}
+
+
+@inproceedings{Alfaro01,
+author = {de Alfaro, Luca and Henzinger, Thomas A.},
+title = {Interface Automata},
+year = {2001},
+isbn = {1581133901},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/503209.503226},
+doi = {10.1145/503209.503226},
+booktitle = {Proceedings of the 8th European Software Engineering Conference Held Jointly with 9th ACM SIGSOFT International Symposium on Foundations of Software Engineering},
+pages = {109–120},
+numpages = {12},
+location = {Vienna, Austria},
+series = {ESEC/FSE-9}
+}
+
+@inproceedings{Lynch87,
+author = {Lynch, Nancy A. and Tuttle, Mark R.},
+title = {Hierarchical Correctness Proofs for Distributed Algorithms},
+year = {1987},
+isbn = {089791239X},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/41840.41852},
+doi = {10.1145/41840.41852},
+booktitle = {Proceedings of the Sixth Annual ACM Symposium on Principles of Distributed Computing},
+pages = {137–151},
+numpages = {15},
+location = {Vancouver, British Columbia, Canada},
+series = {PODC '87}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% formal specifications for composition reasonings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{Meyer09,
+  title={Touch of class},
+  author={Meyer, Bertrand},
+  journal={Learning to program well with Object Technology and Design by Contract, AN INTRODUCTION TO SOFTWARE ENGINEERING http://se. inf. ethz. ch/touch},
+  pages={51},
+  year={2009},
+  publisher={Springer}
+}
+
+@article{Abadi95,
+  title={Conjoining specifications},
+  author={Abadi, Mart{\'\i}n and Lamport, Leslie},
+  journal={ACM Transactions on Programming Languages and Systems (TOPLAS)},
+  volume={17},
+  number={3},
+  pages={507--535},
+  year={1995},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{Abadi93,
+  title={Composing specifications},
+  author={Abadi, Martin and Lamport, Leslie},
+  journal={ACM Transactions on Programming Languages and Systems (TOPLAS)},
+  volume={15},
+  number={1},
+  pages={73--132},
+  year={1993},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{Meyer92,
+  title={Applying 'design by contract'},
+  author={Meyer, Bertrand},
+  journal={Computer},
+  volume={25},
+  number={10},
+  pages={40--51},
+  year={1992},
+  publisher={IEEE}
+}
+
+@InProceedings{Abadi89,
+author="Abadi, Mart{\'i}n
+and Lamport, Leslie
+and Wolper, Pierre",
+title="Realizable and unrealizable specifications of reactive systems",
+booktitle="International Colloquium on Automata, Languages, and Programming",
+year="1989",
+pages="1--17",
+isbn="978-3-540-46201-9"
+}
+
+@article{Jones83,
+author = {Jones, C. B.},
+title = {Tentative Steps toward a Development Method for Interfering Programs},
+year = {1983},
+issue_date = {Oct. 1983},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {5},
+number = {4},
+issn = {0164-0925},
+journal = {ACM Transactions on Programming Languages and Systems},
+month = {oct},
+pages = {596–619},
+numpages = {24}
+}
+
+@Inbook{Floyd93,
+author="Floyd, Robert W.",
+editor="Colburn, Timothy R.
+and Fetzer, James H.
+and Rankin, Terry L.",
+title="Assigning Meanings to Programs",
+bookTitle="Program Verification: Fundamental Issues in Computer Science",
+year="1993",
+publisher="Springer Netherlands",
+address="Dordrecht",
+pages="65--81",
+isbn="978-94-011-1793-7",
+doi="10.1007/978-94-011-1793-7_4",
+url="https://doi.org/10.1007/978-94-011-1793-7_4"
+}
+
+@ARTICLE{Seshia17,
+  author={Seshia, Sanjit A. and Hu, Shiyan and Li, Wenchao and Zhu, Qi},
+  journal=TCAD, 
+  title={Design Automation of Cyber-Physical Systems: Challenges, Advances, and Opportunities}, 
+  year={2017},
+  volume={36},
+  number={9},
+  pages={1421-1434},
+  doi={10.1109/TCAD.2016.2633961}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% System Design Methodology
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{Sangiovanni07,
+  title={Quo vadis, {SLD}? Reasoning about the trends and challenges of system level design},
+  author={Sangiovanni-Vincentelli, Alberto},
+  journal={Proceedings of the IEEE},
+  volume={95},
+  number={3},
+  pages={467--506},
+  year={2007},
+  publisher={IEEE}
+}
+
+@article{Sangiovanni12,
+  title={Taming {Dr.} {F}rankenstein: Contract-based design for cyber-physical systems},
+  author={Sangiovanni-Vincentelli, Alberto and Damm, Werner and Passerone, Roberto},
+  journal={European journal of control},
+  volume={18},
+  number={3},
+  pages={217--238},
+  year={2012},
+  publisher={Elsevier}
+}
+
+@Inbook{NuzzoPM18,
+author="Nuzzo, Pierluigi
+and Sangiovanni-Vincentelli, Alberto L.",
+editor="Lohstroh, Marten
+and Derler, Patricia
+and Sirjani, Marjan",
+title="Hierarchical System Design with Vertical Contracts",
+bookTitle="Principles of Modeling: Essays Dedicated to Edward A. Lee on the Occasion of His 60th Birthday",
+year="2018",
+publisher="Springer International Publishing",
+address="Cham",
+pages="360--382",
+}
+
+@inproceedings{NuzzoISPD19,
+author = {Nuzzo, Pierluigi},
+title = {From Electronic Design Automation to Cyber-Physical System Design Automation: A Tale of Platforms and Contracts},
+year = {2019},
+isbn = {9781450362535},
+booktitle = ISPD,
+pages = {117–121},
+numpages = {5},
+location = {San Francisco, CA, USA},
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Contract-based Design Application
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{Nuzzo13,
+  title={A contract-based methodology for aircraft electric power system design},
+  author={Nuzzo, Pierluigi and Xu, Huan and Ozay, Necmiye and Finn, John B and Sangiovanni-Vincentelli, Alberto L and Murray, Richard M and Donz{\'e}, Alexandre and Seshia, Sanjit A},
+  journal={IEEE Access},
+  volume={2},
+  pages={1--25},
+  year={2013},
+  publisher={IEEE}
+}
+
+@inproceedings{Damm11,
+  title={Using contract-based component specifications for virtual integration testing and architecture design},
+  author={Damm, Werner and Hungar, Hardi and Josko, Bernhard and Peikenkamp, Thomas and Stierand, Ingo},
+  booktitle=DATE,
+  pages={1--6},
+  year={2011},
+}
+
+@ARTICLE{Nuzzo12,
+  author={Nuzzo, Pierluigi and Sangiovanni-Vincentelli, Alberto and Sun, Xuening and Puggelli, Alberto},
+  journal={IEEE Sensors Journal}, 
+  title={Methodology for the Design of Analog Integrated Interfaces Using Contracts}, 
+  year={2012},
+  volume={12},
+  number={12},
+  pages={3329-3345}}
+
+@ARTICLE{Spellini21,
+  author={Spellini, Stefano and Chirico, Roberta and Panato, Marco and Lora, Michele and Fummi, Franco},
+  journal={IEEE Transactions on Industrial Informatics}, 
+  title={Virtual Prototyping a Production Line Using Assume–Guarantee Contracts}, 
+  year={2021},
+  volume={17},
+  number={9},
+  pages={6294-6302},
+  doi={10.1109/TII.2020.3038679}}
+# non functional contracts
+@InProceedings{Bartocci22,
+author="Bartocci, Ezio
+and Ferr{\`e}re, Thomas
+and Henzinger, Thomas A.
+and Nickovic, Dejan
+and da Costa, Ana Oliveira",
+title="Information-flow Interfaces",
+booktitle="Fundamental Approaches to Software Engineering",
+year="2022",
+publisher="Springer International Publishing",
+pages="3--22",
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Contract Tools
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% OCRA
+@inproceedings{Cimatti13,
+  title={{OCRA}: A tool for checking the refinement of temporal contracts},
+  author={Cimatti, Alessandro and Dorigatti, Michele and Tonetta, Stefano},
+  booktitle={IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+  pages={702--705},
+  year={2013},
+}
+
+% PYCOLite
+% see Iannopollo17 in synthesis of PYCO
+
+@INPROCEEDINGS{NuzzoDATE18,
+  author={Nuzzo, Pierluigi and Lora, Michele and Feldman, Yishai A. and Sangiovanni-Vincentelli, Alberto L.},
+  booktitle=DATE, 
+  title={CHASE: Contract-based requirement engineering for cyber-physical system design}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={839-844}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Contract Synthesis
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@INPROCEEDINGS{Iannopollo18,
+  author={Iannopollo, Antonio and Tripakis, Stavros and Sangiovanni-Vincentelli, Alberto},
+  booktitle=DATE, 
+  title={Specification decomposition for synthesis from libraries of {LTL} Assume/Guarantee contracts}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={1574-1579}}
+  
+  
+@InProceedings{Iannopollo17,
+author="Iannopollo, Antonio
+and Tripakis, Stavros
+and Sangiovanni-Vincentelli, Alberto",
+title="Constrained Synthesis from Component Libraries",
+booktitle="Formal Aspects of Component Software",
+year="2017",
+pages="92--110",
+isbn="978-3-319-57666-4"
+}
+
+@phdthesis{Iannopollo18PHD,
+  title={A Platform-Based Approach to Verification and Synthesis of Linear Temporal Logic Specifications},
+  author={Iannopollo, Antonio},
+  year={2018},
+  school={University of California, Berkeley}
+}
+
+@phdthesis{Filippidis19,
+  title={Decomposing formal specifications into assume-guarantee contracts for hierarchical system design},
+  author={Filippidis, Ioannis},
+  year={2019},
+  school={California Institute of Technology}
+}
+
+@article{Sun19,
+  title={Correct-by-construction: a contract-based semi-automated requirement decomposition process},
+  author={Sun, Minghui and Bakirtzis, Georgios and Jafarzadeh, Hassan and Fleming, Cody},
+  journal={arXiv preprint arXiv:1909.02070},
+  year={2019}
+}
+
+@article{Le16,
+author = {Le, Thi Thieu Hoa and Passerone, Roberto and Fahrenberg, Uli and Legay, Axel},
+title = {Contract-Based Requirement Modularization via Synthesis of Correct Decompositions},
+year = {2016},
+issue_date = {May 2016},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {15},
+number = {2},
+issn = {1539-9087},
+journal = TECS,
+articleno = {33},
+numpages = {26},
+}
+
+@inproceedings{Ghasemi20,
+  title={Compositional synthesis via a convex parameterization of assume-guarantee contracts},
+  author={Ghasemi, Kasra and Sadraddini, Sadra and Belta, Calin},
+  booktitle={Proceedings of the 23rd International Conference on Hybrid Systems: Computation and Control},
+  pages={1--10},
+  year={2020}
+}
+
+@article{Majumdar20,
+  title={Assume--Guarantee Distributed Synthesis},
+  author={Majumdar, Rupak and Mallik, Kaushik and Schmuck, Anne-Kathrin and Zufferey, Damien},
+  journal= TCAD,
+  volume={39},
+  number={11},
+  pages={3215--3226},
+  year={2020},
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Contract Verification
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  @inproceedings{Iannopollo14,
+  title={Library-based scalable refinement checking for contract-based design},
+  author={Iannopollo, Antonio and Nuzzo, Pierluigi and Tripakis, Stavros and Sangiovanni-Vincentelli, Alberto},
+  booktitle=DATE,
+  pages={1--6},
+  year={2014},
+  organization={IEEE}
+}
+
+@inproceedings{Cimatti12,
+  title={A property-based proof system for contract-based design},
+  author={Cimatti, Alessandro and Tonetta, Stefano},
+  booktitle={Euromicro Conference on Software Engineering and Advanced Applications},
+  pages={21--28},
+  year={2012},
+}
+
+@inproceedings{Quinton08,
+  title={Contract-based verification of hierarchical systems of components},
+  author={Quinton, Sophie and Graf, Susanne},
+  booktitle={IEEE International Conference on Software Engineering and Formal Methods},
+  pages={377--381},
+  year={2008},
+}
+
+@InProceedings{Cofer12,
+author="Cofer, Darren
+and Gacek, Andrew
+and Miller, Steven
+and Whalen, Michael W.
+and LaValley, Brian
+and Sha, Lui",
+editor="Goodloe, Alwyn E.
+and Person, Suzette",
+title="Compositional Verification of Architectural Models",
+booktitle="NASA Formal Methods",
+year="2012",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="126--140",
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SMT solver
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Z3
+@inproceedings{Moura08,
+author = {De Moura, Leonardo and Bj\o{}rner, Nikolaj},
+title = {Z3: An Efficient SMT Solver},
+year = {2008},
+isbn = {3540787992},
+pages = {337–340},
+numpages = {4},
+series = {TACAS'08/ETAPS'08}
+}
+% CVC4 (Cannot find CVC5)
+@inproceedings{Barrett11,
+author = {Barrett, Clark and Conway, Christopher L. and Deters, Morgan and Hadarean, Liana and Jovanovi\'{c}, Dejan and King, Tim and Reynolds, Andrew and Tinelli, Cesare},
+title = {CVC4},
+year = {2011},
+isbn = {9783642221095},
+booktitle = {Proceedings of the 23rd International Conference on Computer Aided Verification},
+pages = {171–177},
+numpages = {7},
+series = {CAV'11}
+}
+
+@inproceedings{Reynolds14,
+  title={Finding conflicting instances of quantified formulas in SMT},
+  author={Reynolds, Andrew and Tinelli, Cesare and De Moura, Leonardo},
+  booktitle={2014 Formal Methods in Computer-Aided Design (FMCAD)},
+  pages={195--202},
+  year={2014},
+  organization={IEEE}
+}
+
+@article{Reynolds17,
+  title={Solving quantified linear arithmetic by counterexample-guided instantiation},
+  author={Reynolds, Andrew and King, Tim and Kuncak, Viktor},
+  journal={Formal Methods in System Design},
+  volume={51},
+  number={3},
+  pages={500--532},
+  year={2017},
+}
+
+@inproceedings{Niemetz18,
+  title={Solving quantified bit-vectors using invertibility conditions},
+  author={Niemetz, Aina and Preiner, Mathias and Reynolds, Andrew and Barrett, Clark and Tinelli, Cesare},
+  booktitle={International Conference on Computer Aided Verification},
+  pages={236--255},
+  year={2018},
+  organization={Springer}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Others
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%SMC
+@inproceedings{Shoukry17,
+author = {Shoukry, Yasser and Nuzzo, Pierluigi and Sangiovanni-Vincentelli, Alberto L. and Seshia, Sanjit A. and Pappas, George J. and Tabuada, Paulo},
+title = {SMC: Satisfiability Modulo Convex Optimization},
+year = {2017},
+isbn = {9781450345903},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+doi = {10.1145/3049797.3049819},
+booktitle = {Proceedings of the 20th International Conference on Hybrid Systems: Computation and Control},
+pages = {19–28},
+numpages = {10},
+keywords = {convex programming, satisfiability modulo convex optimization, satisfiability modulo theories},
+location = {Pittsburgh, Pennsylvania, USA},
+series = {HSCC '17}
+}
+% CalCS
+@INPROCEEDINGS{Nuzzo10,
+  author={Nuzzo, Pierluigi and Puggelli, Alberto and Seshia, Sanjit A. and Sangiovanni-Vincentelli, Alberto},
+  booktitle={Formal Methods in Computer Aided Design}, 
+  title={CalCS: SMT solving for non-linear convex constraints}, 
+  year={2010},
+  volume={},
+  number={},
+  pages={71-79},
+  doi={}}
+
+%Mathematical Logics
+@book{Monk12,
+  title={Mathematical logic},
+  author={Monk, James Donald},
+  volume={37},
+  year={2012},
+  publisher={Springer Science \& Business Media}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cyber-physical Systems
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@book{Lee16CPSIntroduction,
+  title={Introduction to embedded systems: A cyber-physical systems approach},
+  author={Lee, Edward Ashford and Seshia, Sanjit Arunkumar},
+  year={2016},
+  publisher={MIT Press}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% UAV LOGiCs
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@INPROCEEDINGS{James22,
+  author={Walker, James D. and Heim, F. Michael and Surampudi, Bapiraju and Bueno, Pablo and Carpenter, Alexander and Chocron, Sidney and Cutshall, Jon and Lammons, Richard and Bapty, Theodore and Swenson, Brian and Whittington, Sydney},
+  booktitle={2022 IEEE Workshop on Design Automation for CPS and IoT (DESTION)}, 
+  title={A Flight Dynamics Model for Exploring the Distributed Electrical eVTOL Cyber Physical Design Space}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={7-12},
+  doi={10.1109/DESTION56136.2022.00008}}
+
+@inproceedings{li2017stochastic,
+  title={Stochastic contracts for cyber-physical system design under probabilistic requirements},
+  author={Li, Jiwei and Nuzzo, Pierluigi and Sangiovanni-Vincentelli, Alberto and Xi, Yugeng and Li, Dewei},
+  booktitle={Proceedings of the 15th ACM-IEEE International Conference on Formal Methods and Models for System Design},
+  pages={5--14},
+  year={2017}
+}
